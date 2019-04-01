@@ -8,16 +8,6 @@ body {
   font-size: 10px;
 }
 
-.container {
- background-color: #aaa;
- border: : 5% 5% 5% 5%;
- \* margin: top right bottom left; *\
- margin: 5% 5% 5% 5%;
- \* padding: top right bottom left; *\
- padding: 5% 5% 10% 5%;
- width: 420px; /* counts toward width */
-}
-
 nav {
   margin: 0 auto;
   position: left;
@@ -31,25 +21,23 @@ nav {
   width: 420px; /* counts toward width */
 }
 
-.content {
-    background-color: #aaa;
-    margin: 1%;
-    padding: 1%;
-    width: 85%;
-  }
+h1{
+color: black;
+font-size: 150%;
+}
 
-  .location {
-    margin: 1%;
-    padding: 1%;
-    width: 85%;
-  }
+h3 {
+  color: black;
+}
 
-.arrow {
-background-color: #aaa;
-float: right;
-margin: 1%;
-padding: 1%;
-width: 14%;
+.container {
+ background-color: #aaa;
+ border: : 5% 5% 5% 5%;
+ \* margin: top right bottom left; *\
+ margin: 5% 5% 5% 5%;
+ \* padding: top right bottom left; *\
+ padding: 5% 5% 10% 5%;
+ width: 420px; /* counts toward width */
 }
 
 .restaurant-list {
@@ -59,3 +47,27 @@ width: 14%;
   \* padding: top right bottom left; *\
   padding: 10px 0 15px 15px;
   width: 420px; /* counts toward width */
+}
+
+.content {
+    background-color: #aaa;
+    margin: 1%;
+    padding: 1%;
+    width: 75%;
+    display: inline-block;
+  }
+
+  .location {
+    padding: 5% 0 5% 0
+    width: 100%;
+    border-bottom: 1px solid black;
+  }
+
+.arrow {
+background-color: #aaa;
+float: right;
+width: 14%;
+margin: 1% 1% 1% 1%;
+display: inline-block;
+vertical-align:
+}
