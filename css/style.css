@@ -37,22 +37,21 @@ width: 420px;
     background-color: #aaa;
     margin: 1%;
     padding: 1%;
-    width: 75%;
+    width: 92%;
     display: inline-block;
   }
 
-  h1 {
+  div h1 {
     font-size: 140%;
     font-weight: bold;
   }
 
-  .content:hover {
-    background-color: yellow;
+div:hover, .arrow:hover {
+    background-color: gray;
   }
 
-.arrow {
+div .arrow {
 background-color: #aaa;
 float: right;
 display: inline-block;
-vertical-align:
 }
