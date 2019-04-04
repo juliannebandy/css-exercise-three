@@ -46,8 +46,9 @@ width: 420px;
     font-weight: bold;
   }
 
-div:hover, .arrow:hover {
+div:hover {
     background-color: gray;
+    cursor: pointer;
   }
 
 div .arrow {
